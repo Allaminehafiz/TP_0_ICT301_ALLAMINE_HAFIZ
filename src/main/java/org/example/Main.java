@@ -1,5 +1,6 @@
 package org.example;
 import org.example.LSP.Rectangle;
+import org.example.LSP.apres.Shape;
 
 // Utilisation de la classe Book
 public class Main {
@@ -75,7 +76,11 @@ public class Main {
         System.out.println("Area = " + calculator.calculateArea(myShape));
         */
 
+       /*
+
+        LSP avant refactoring
         Rectangle rectangle = new Rectangle();
+
          rectangle.setWidth(5);
          rectangle.setHeight(4); // Attend une aire de 20
          System.out.println("Aire du Rectagle ="+rectangle.getArea());
@@ -85,5 +90,19 @@ public class Main {
          rectangle1.setHeight(4); // Attend une aire de 20, mais obtient 16 (4x4)
          System.out.println("Aire du Carré ="+rectangle1.getArea()); // Résultat inattendu }
 
+
+
+        */
+
+        /* LSP apres refactoring
+
+        Shape square = new Shape.Square(3);
+        Shape rectangle = new Shape.Rectangle(4, 3);
+
+        System.out.println("Square Area : "+square.getArea());
+        System.out.println("Rectangle Area: "+rectangle.getArea());
+
+
+         */
     }
 }
