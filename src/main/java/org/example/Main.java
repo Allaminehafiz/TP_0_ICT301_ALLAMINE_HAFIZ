@@ -1,13 +1,5 @@
 package org.example;
-
-import org.example.OCP.AreaCalculator;
-import org.example.OCP.Circle;
-import org.example.OCP.apres.AreaCalculator2;
-import org.example.OCP.apres.Rectangle;
-import org.example.OCP.apres.Shape;
-import org.example.SRP.*;
-
-import java.awt.*;
+import org.example.LSP.Rectangle;
 
 // Utilisation de la classe Book
 public class Main {

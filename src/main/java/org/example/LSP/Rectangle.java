@@ -1,6 +1,6 @@
 package org.example.LSP;
 
-class Rectangle {
+public class Rectangle {
  protected int width;
  protected int height;
  public void setWidth(int width) {
@@ -11,7 +11,7 @@ class Rectangle {
 public int getArea() {
          return width * height; }
 
-    class Square extends Rectangle {
+public static class Square extends Rectangle {
  @Override
  public void setWidth(int width) {
              super.setWidth(width);
