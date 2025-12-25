@@ -77,10 +77,10 @@ public class Main {
 
          */
 
-
+    /* principe OCP apres refactoring
        Shape myShape = new Rectangle(4, 3);
         AreaCalculator2 calculator = new AreaCalculator2();
         System.out.println("Area = " + calculator.calculateArea(myShape));
-
+        */
     }
 }
